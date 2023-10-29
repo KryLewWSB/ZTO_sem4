@@ -9,5 +9,9 @@ public class Main {
 
         System.out.println(kierownik.getData());
 
+        System.out.println(pracownik + "\t" + pracownik.toString());
+        System.out.println("-----");
+        System.out.println(kierownik + "\t" + kierownik.toString());
+
     }
 }
