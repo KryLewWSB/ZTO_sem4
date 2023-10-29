@@ -5,14 +5,9 @@ public class Main {
         Pracownik pracownik = new Pracownik("Adam", "Kowalski", 5000);
         Kierownik kierownik = new Kierownik("Adela", "Nowakowska", 8000, 2000);
 
-        System.out.println("Imięt pracownik: " + pracownik.imie +
-                           "\nNazwisko pracownik: " + pracownik.nazwisko +
-                            "\nPensja pracownik: " + pracownik.wyplata);
+        System.out.println(pracownik.getData());
 
-        System.out.println("\nImięt pracownik: " + kierownik.imie +
-                        "\nNazwisko pracownik: " + kierownik.nazwisko +
-                        "\nPensja pracownik: " + kierownik.wyplata +
-                        "\nPremia kierownicza " + kierownik.premiaKierownicza);
+        System.out.println(kierownik.getData());
 
     }
 }
